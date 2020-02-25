@@ -10,20 +10,6 @@ using namespace std;
 map<int, int> SnakeHeadAndTailPos;
 map<int, int> LadderStartAndEnd;
 
-class Player
-{
-public:
-     void init();
-     void getPlayerCount();
-     void getPlayerName();
-     void showPlayerDetails();
-
-private:
-     int playerCount;
-     string playerName;
-     map<string, int> PlayerDetails;
-};
-
 void getPlayerCount(int &playercount)
 {
      cout << "Enter The No of Player: ";
